@@ -1,0 +1,73 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* Prevents overflow */
+  width: 60%; /* Full width of the container */
+  margin: 96px auto;}
+
+.slide {
+  position: relative; /* Needed for absolute positioning of caption within it */
+  margin: 5px; /* Space between slides */
+  transition: all 0.5s ease; /* Smooth transition for all properties */
+  cursor: pointer;
+}
+
+.slide.active {
+  width: 200rem; /* Fixed width for the active slide */
+  height: 40rem; 
+
+}
+.slide.next {
+  width: 60rem;
+  height: 20rem;
+  opacity: 0.5;
+}
+.slide.previous {
+  width: 60rem;
+  height: 20rem;
+  opacity: 0.5;
+}
+.slide img {
+  width: 100%; /* Ensures image takes up the full width of the slide */
+  height: 100%; /* Ensures image takes up the full height of the slide */
+  object-fit: cover; /* Ensures the image covers the area properly */
+}
+
+.caption {
+  position: absolute;
+  top: 0; /* Positions caption at the top of the slide */
+  left: 50%; /* Centers caption horizontally */
+  transform: translateX(-50%); /* Ensures perfect center alignment */
+  width: 100%; /* Makes the caption span the full width of the slide */
+  text-align: center; /* Aligns text at the center */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  color: white; /* White text color */
+  padding: 5px 0; /* Adds vertical padding */
+  font-size: 1.2em; /* Sets the size of the text */
+  font-family: 'Mina', sans-serif;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 10px; /* Adjust this value to ensure visibility */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 1; /* Make sure it’s fully visible */
+  visibility: visible; /* Ensure it's not hidden */
+}
+
+
+.dot.active {
+  background-color: #fff;
+}

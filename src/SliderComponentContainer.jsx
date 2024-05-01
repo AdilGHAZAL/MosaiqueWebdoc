@@ -1,0 +1,31 @@
+import React from 'react';
+import SliderComponent from './SliderComponent'; // Adjust the import path as needed
+import './SliderComponentContainer.css'; // This is your new CSS file for the container
+
+function SliderComponentContainer() {
+  const slides = [
+    {
+      image: './src/assets/ImageFille2.png',
+      caption: '30 Km Pro'
+    },
+    {
+      image: './src/assets/ImageFille.png',
+      caption: '10 Km Intermédiaire'
+    },
+    {
+      image: './src/assets/ImageFille3.png',
+      caption: '3 Km Débutant'
+    }
+  ];
+
+  return (
+    <div className="slider-component-container">
+      <h1>Relevez les défis et partagez-les</h1>
+      <p>Participez aux challenges proposés et gagnez des lots*</p>
+      <p>*disponibles depuis la boutique officielle sur présentation du mail</p>
+      <SliderComponent slides={slides} />
+    </div>
+  );
+}
+
+export default SliderComponentContainer;
