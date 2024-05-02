@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'NomDeLaPolice';  /* Remplacez NomDeLaPolice par le nom de votre choix pour la police */
+    src: url('./assets/fonts/SF-Pro-Display-Bold\ \(1\).otf') format('woff'); /* Assurez-vous que le chemin et le format sont corrects */
+    font-weight: normal;
+    font-style: normal;
+}

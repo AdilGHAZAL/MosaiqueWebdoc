@@ -1,0 +1,46 @@
+/* Centering for all divs except for specific ones */
+.containerTraining > div:not(.sectionTraining):not(.sectionAdvice) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Centering for .sectionAdvice */
+.sectionAdvice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Styles for ".sectionAdvice h2" */
+.sectionAdvice h2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71.6px;
+    text-align: justify;
+}
+
+/* Styles for ".sectionAdvice div p, .sectionAdvice div ul" */
+.sectionAdvice div p,
+.sectionAdvice div ul {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.73px;
+    text-align: left;
+}
+
+/* Styles for ".sectionAdvice div p, .sectionAdvice div ul li" */
+.sectionAdvice div p,
+.sectionAdvice div ul li {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.73px;
+    text-align: left;
+}

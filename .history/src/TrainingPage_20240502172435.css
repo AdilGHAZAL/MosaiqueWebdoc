@@ -1,0 +1,129 @@
+/* Styles pour "Tout pour bien commencer" */
+.session-info h2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 83.54px;
+    text-align: center;
+  }
+  
+  /* Styles pour "Séance 45'" */
+  .sectionMaterial h1 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 238.67px;
+    text-align: center;
+  }
+  
+  /* Styles pour "Matériel" */
+  .sectionMaterial h2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71.6px;
+    text-align: justify; /* Notez que 'justify' n'est pas valide pour 'text-align', vous voudriez peut-être utiliser 'justified' dans une classe différente si c'est nécessaire */
+  }
+  
+  /* Styles pour "Tout ce dont vous avez besoin pour commencer:" et la liste */
+  .sectionMaterial p, .sectionMaterial ul {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.73px;
+    text-align: center;
+  }
+  
+  /* Styles additionnels pour la liste pour garder les icônes alignées */
+  .sectionMaterial ul {
+    padding: 0;
+    list-style-type: none; /* Enlève les puces de la liste */
+  }
+  
+  .sectionMaterial li {
+    margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+  }
+  
+  .sectionMaterial .icon {
+    font-size: 40px; /* Assure que les icônes ont la même taille de police que le texte */
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+  }
+  .sectionWarmUp h2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71.6px;
+    text-align: justify; /* Note: 'justify' n'est pas typiquement utilisé pour les titres, envisagez 'left', 'center', ou 'right' */
+  }
+  .sectionWarmUp div p, .sectionWarmUp div ul {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700; /* pour le texte plus gras */
+    line-height: 47.73px;
+    text-align: left;
+  }
+  
+  .sectionWarmUp div p, .sectionWarmUp div ul li {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 500; /* pour le texte moins gras */
+    line-height: 47.73px;
+    text-align: left;
+  }
+  .sectionTraining h2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71.6px;
+    text-align: justify; /* Note: 'justify' n'est pas typiquement utilisé pour les titres, envisagez 'left', 'center', ou 'right' */
+  }
+  .sectionTraining div p, .sectionTraining div ul {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700; /* pour le texte plus gras */
+    line-height: 47.73px;
+    text-align: left;
+  }
+  
+  .sectionTraining div p, .sectionTraining div ul li {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 40px;
+    font-weight: 500; /* pour le texte moins gras */
+    line-height: 47.73px;
+    text-align: left;
+  }
+
+  .sectionAdvice p {
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.73px;
+    text-align: center;
+  }
+  
+  .sectionAdvice ul {
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.73px;
+    text-align: center;
+  }
+  
+  .sectionAdvice li {
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47.73px;
+    text-align: center;
+  }
+  .sectionWarmUp h2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71.6px;
+    text-align: justify; /* Note: 'justify' n'est pas typiquement utilisé pour les titres, envisagez 'left', 'center', ou 'right' */
+  }
+  
+  
+  
+  

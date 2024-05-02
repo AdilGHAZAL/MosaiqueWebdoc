@@ -1,0 +1,52 @@
+.training-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .training-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .training-title {
+    font-size: 28px;
+    color: #000;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .material-section, .warm-up-section, .training-section, .advice-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 15px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #444;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .material-list li {
+    padding: 8px 0;
+  }
+  
+  .training-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ddd;
+  }
+  

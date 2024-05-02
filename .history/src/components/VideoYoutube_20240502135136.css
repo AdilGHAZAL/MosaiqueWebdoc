@@ -1,0 +1,57 @@
+.conteneur-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    width: 100%; /* Full width of the container */
+  }
+  
+  .titleVideo h2 {
+    color: #000000;
+    font-family: "SF Pro Display", Helvetica, sans-serif; /* Ensure fallback fonts */
+    font-size: 110px; /* Large and prominent font size */
+    font-weight: 700;
+    line-height: 131.27px;
+    text-align: center;
+    margin-bottom: 20px; /* Space between title and video */
+  }
+  
+  .video {
+    width: 80%; /* Control the width of the video container */
+    max-width: 960px; /* Maximum width */
+    margin-top: 20px;
+  }
+  
+  .video-footer {
+    font-family: "SF Pro Display", Helvetica, sans-serif;
+    font-size: 40px; 
+    font-weight: 200; 
+    line-height: 47.73px;
+    text-align: center; 
+    margin-top: 20px; 
+    width: 100%; 
+    color: #666666; 
+  }
+  @media (max-width: 768px) {
+    .titleVideo h2 {
+      font-size: 60px; 
+      line-height: 70px; 
+    }
+  
+    .video-footer {
+      font-size: 24px; 
+      line-height: 28px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .titleVideo h2 {
+      font-size: 40px; 
+      line-height: 48px; 
+    }
+  
+    .video-footer {
+      font-size: 20px; 
+      line-height: 24px; 
+    }
+  }
+    

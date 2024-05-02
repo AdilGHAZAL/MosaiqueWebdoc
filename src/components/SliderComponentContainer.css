@@ -1,0 +1,24 @@
+.slider-component-container {
+    text-align: center;
+    font-family: 'SF Pro Display', Arial, sans-serif; 
+    width: 100%;
+    margin: auto;
+}
+
+.slider-component-container h1 {
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 131.27px;
+    text-align: center;
+    color: #000; 
+}
+
+.slider-component-container p {
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 47.73px;
+    text-align: center;
+    color: #000; 
+}

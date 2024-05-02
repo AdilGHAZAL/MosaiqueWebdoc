@@ -1,0 +1,34 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    width: 800px;
+    margin: 20px auto;
+    color: #333;
+    background: #fff;
+  }
+  
+  h1, h2 {
+    color: #000;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .session-info h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .material p, .warm-up p, .training p, .advice p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .icon {
+    font-size: 20px; /* Adjust size according to your preference */
+  }
+  
+  /* Add additional styling here based on further requirements */
+  

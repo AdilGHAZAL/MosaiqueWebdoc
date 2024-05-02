@@ -1,0 +1,68 @@
+/* Base styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .containerTraining {
+    font-family: 'SF Pro Display', sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  /* Specific section styling */
+  .session-info h2 {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 83.54px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sectionMaterial h1 {
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 238.67px;
+    margin-bottom: 20px;
+  }
+  
+  .sectionMaterial h2, .sectionWarmUp h2, .sectionTraining h2, .sectionAdvice h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71.6px;
+    margin-bottom: 10px;
+  }
+  
+  .sectionMaterial p, .sectionWarmUp p, .sectionTraining p, .sectionAdvice p,
+  .sectionMaterial ul, .sectionWarmUp ul, .sectionTraining ul, .sectionAdvice ul {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.73px;
+  }
+  

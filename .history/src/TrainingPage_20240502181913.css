@@ -1,0 +1,47 @@
+/* Center everything vertically */
+.containerTraining {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes up the full height of the viewport */
+  }
+  
+  /* Styles for each section */
+  .section-info,
+  .sectionMaterial,
+  .sectionWarmUp,
+  .sectionTraining,
+  .sectionAdvice {
+    margin-bottom: 30px; /* Add some spacing between sections */
+    text-align: center; /* Center align the content horizontally */
+    max-width: 800px; /* Limit the width of each section */
+  }
+  
+  /* Styles for headings */
+  .section-info h2,
+  .sectionMaterial h1,
+  .sectionMaterial h2,
+  .sectionWarmUp h2,
+  .sectionTraining h2,
+  .sectionAdvice h2 {
+    margin-bottom: 20px; /* Add spacing below each heading */
+  }
+  
+  /* Additional styles for lists */
+  .sectionMaterial ul,
+  .sectionWarmUp ul,
+  .sectionTraining ul,
+  .sectionAdvice ul {
+    padding: 0;
+    list-style-type: none; /* Remove bullets from lists */
+  }
+  
+  /* Additional styles for list items */
+  .sectionMaterial li,
+  .sectionWarmUp li,
+  .sectionTraining li,
+  .sectionAdvice li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  

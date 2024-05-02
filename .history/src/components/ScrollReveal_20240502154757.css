@@ -1,0 +1,17 @@
+.scroll-reveal.start-animation > * {
+    display: inline;
+    color: hsl(0deg 22.14% 64.8% / 20%);
+    font-size: 60px;
+    font-weight: 500;
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(#E9257F, #ce1f71);
+    animation: scroll-reveal linear forwards;
+}
+
+@keyframes scroll-reveal {
+    to {
+        background-size: 100% 100%;
+    }
+}

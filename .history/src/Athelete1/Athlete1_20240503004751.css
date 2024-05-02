@@ -1,0 +1,76 @@
+/* Base font size for scaling purposes */
+html {
+  font-size: 16px; /* Basic size, scales for responsive text sizing */
+}
+
+/* Using relative units and making the text size responsive */
+.image1, .image2, .partie-image2 p, .commencement, .noubliezpas, .leplusimportant, .lancezvous, .coach {
+  width: 100%; /* Full width for smaller screens, adjust for larger ones in media queries */
+  height: auto; /* Maintain aspect ratio */
+  position: relative; /* Adjust positioning as required */
+}
+
+.page-container, .partie-image1, .lancez-coach-container, .partie-sonclub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Full width */
+}
+
+h1, .premier-texte, .deuxieme-texte, .commencement, .noubliezpas, .leplusimportant, .lancezvous, .coach {
+  text-align: center; /* Center text for better mobile readability */
+  font-size: calc(1rem + 1.5vw); /* Responsive font sizing */
+}
+
+/* Media queries for adjusting layout and text sizes at different breakpoints */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 5rem; /* Smaller font size for large texts */
+  }
+
+  .premier-texte, .deuxieme-texte, .commencement, .noubliezpas, .leplusimportant, .lancezvous, .coach {
+    font-size: calc(1rem + 1vw); /* Slightly reduce font size */
+  }
+}
+
+@media (max-width: 768px) { /* Tablet and below */
+  h1, .premier-texte, .deuxieme-texte {
+    font-size: 3rem; /* Even smaller font size for tablets */
+  }
+
+  .partie-image1, .partie-image2, .partie-sonclub {
+    padding: 0 20px; /* Add padding to maintain layout integrity */
+  }
+
+  .commencement, .noubliezpas, .leplusimportant {
+    width: 80%; /* Increase width for text blocks to take more space */
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .image-button {
+    width: 180px; /* Smaller button */
+    height: 60px; /* Adjust button size */
+  }
+}
+
+@media (max-width: 480px) { /* Mobile phones */
+  h1 {
+    font-size: 2rem; /* Much smaller font size for mobile */
+  }
+
+  .premier-texte, .deuxieme-texte, .commencement, .noubliezpas, .leplusimportant, .lancezvous, .coach {
+    font-size: 1.5rem; /* Smaller text for readability on mobile */
+    width: 95%; /* Maximize width usage */
+  }
+
+  .image-button {
+    width: 160px; /* Even smaller button */
+    height: 50px; /* Adjust button size */
+  }
+}
+
+/* Responsive images and buttons */
+.image-button button {
+  font-size: 14px; /* Smaller font size for smaller buttons */
+}

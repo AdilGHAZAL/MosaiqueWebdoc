@@ -1,0 +1,79 @@
+/* Base styles with relative units where needed for scalability */
+html {
+  font-size: 100%; /* Allows scaling based on user settings and devices */
+}
+
+/* Containers remain the same, just ensuring they're responsive */
+.page-container, .partie-image1, .lancez-coach-container, .partie-sonclub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Responsive width and auto height for images */
+.image1, .image2 {
+  max-width: 54rem; /* Limits the size on larger screens */
+  width: 100%; /* Adjusts width on smaller screens */
+  height: auto; /* Keeps aspect ratio intact */
+  position: relative;
+}
+
+/* Responsive font sizes using viewport widths */
+.partie-image1 h1, .partie-sonclub h1 {
+  font-size: 8vw; /* Adjusts based on screen width */
+}
+
+.premier-texte, .deuxieme-texte, .commencement, .noubliezpas, .leplusimportant, .lancezvous, .coach {
+  font-size: 2vw;
+  text-align: center;
+  width: 80%; /* More responsive width */
+  margin: auto; /* Ensures centering */
+}
+
+/* Specific adjustments at different breakpoints */
+@media (max-width: 1200px) {
+  .partie-image1 h1, .partie-sonclub h1 {
+    font-size: 10vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .partie-image1 h1, .partie-sonclub h1 {
+    font-size: 12vw;
+  }
+
+  .premier-texte, .deuxieme-texte, .commencement, .noubliezpas, .leplusimportant, .lancezvous, .coach {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .partie-image1 h1, .partie-sonclub h1 {
+    font-size: 16vw;
+  }
+
+  .premier-texte, .deuxieme-texte, .commencement, .noubliezpas, .leplusimportant, .lancezvous, .coach {
+    font-size: 5vw;
+  }
+}
+
+/* Adjust button sizes responsively */
+.image-button {
+  width: 20vw; /* Responsive width */
+  height: 7vw; /* Responsive height */
+  max-width: 210px; /* Max width as per original style */
+  max-height: 75px; /* Max height as per original style */
+}
+
+.image-button button {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2vw; /* Responsive font size */
+  text-transform: uppercase;
+}
