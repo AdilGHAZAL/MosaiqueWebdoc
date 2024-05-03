@@ -10,7 +10,7 @@ import TroisDivs from './TroisDivs';
 import SliderComponentContainer from './SliderComponentContainer';
 import Footer from './Footer';
 import PhotoGrid from './PhotoGrid';
-import UB1 from '../assets/Images/ub1.png';
+import UB1 from './src/assets/ub1.png';
 
 
 const HomePage = () => {
