@@ -60,7 +60,7 @@
   height: 10px;
   width: 10px;
   margin: 0 5px;
-  background-color: white;
+  background-color: #E9257F;
   border-radius: 50%;
   cursor: pointer;
   opacity: 1; 
@@ -69,5 +69,5 @@
 
 
 .dot.active {
-  background-color: #E9257F;
+  background-color: #fff;
 }

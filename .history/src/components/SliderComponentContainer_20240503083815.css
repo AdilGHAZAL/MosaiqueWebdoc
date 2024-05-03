@@ -4,8 +4,6 @@
     width: 100%;
     margin: auto;
     background-image: url('../assets/bgslider.png');
-    background-repeat: no-repeat;
-    background-position: bottom left;
 }
 
 .slider-component-container h1 {
