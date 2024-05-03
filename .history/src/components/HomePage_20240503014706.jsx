@@ -24,7 +24,7 @@ const HomePage = () => {
           <span className="bold-text">Paris 2024:</span><span> Célébrez la beauté et la puissance du corps humain.</span>
         </h1>
         <div className="UBimage">
-          <img src={UB1} alt="imageUB" />
+          <img src="UB1" alt="imageUB" />
         </div>
         <section className='scroll-reveal' >
           <span>

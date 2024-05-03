@@ -2,21 +2,19 @@ import React from 'react';
 import SliderComponent from './SliderComponent'; 
 import './SliderComponentContainer.css'; 
 import fille1 from "../assets/ImageFille2.png";
-import fille2 from "../assets/ImageFille.png";
-import fille3 from "../assets/ImageFille3.png";
 
 function SliderComponentContainer() {
   const slides = [
     {
-      image: fille1,
+      image: {fille1},
       caption: '30 Km Pro'
     },
     {
-      image: fille2,
+      image: './src/assets/ImageFille.png',
       caption: '10 Km Intermédiaire'
     },
     {
-      image: fille3,
+      image: './src/assets/ImageFille3.png',
       caption: '3 Km Débutant'
     }
   ];

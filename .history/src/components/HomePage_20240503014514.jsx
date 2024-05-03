@@ -10,7 +10,7 @@ import TroisDivs from './TroisDivs';
 import SliderComponentContainer from './SliderComponentContainer';
 import Footer from './Footer';
 import PhotoGrid from './PhotoGrid';
-import UB1 from '../assets/ub1.png';
+import UB1 from './assets/ub1.png';
 
 
 const HomePage = () => {
@@ -24,7 +24,7 @@ const HomePage = () => {
           <span className="bold-text">Paris 2024:</span><span> Célébrez la beauté et la puissance du corps humain.</span>
         </h1>
         <div className="UBimage">
-          <img src={UB1} alt="imageUB" />
+          <img src="UB1" alt="imageUB" />
         </div>
         <section className='scroll-reveal' >
           <span>

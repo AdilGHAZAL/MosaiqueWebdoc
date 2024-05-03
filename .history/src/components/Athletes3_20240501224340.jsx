@@ -1,6 +1,5 @@
 import React from 'react';
 import './Athletes.css';
-import picAth3 from "../assets/Athlete3.png"
 
 
 const MonComposant3 = () => {
@@ -8,7 +7,7 @@ const MonComposant3 = () => {
     <div className="containerAthletes">
       <div className="photoAthletes">
         {/* Ajoutez votre composant photo ici */}
-        <img src={picAth3} alt="Description de la photo" />
+        <img src="./src/assets/Athlete3.png" alt="Description de la photo" />
       </div>
       <div className="contenuAthletes">
         <h2>Shana Grebo</h2>

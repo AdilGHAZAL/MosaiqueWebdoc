@@ -12,11 +12,11 @@ function SliderComponentContainer() {
       caption: '30 Km Pro'
     },
     {
-      image: fille2,
+      image: './src/assets/ImageFille.png',
       caption: '10 Km Intermédiaire'
     },
     {
-      image: fille3,
+      image: './src/assets/ImageFille3.png',
       caption: '3 Km Débutant'
     }
   ];
